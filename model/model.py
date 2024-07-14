@@ -31,6 +31,7 @@ class Model:
     def loadConnectedGenes(self):
         self._listConnectedGenes = DAO.getAllConnectedGenes()
 
+
     def build_graph(self):
         self.graph.clear()
 

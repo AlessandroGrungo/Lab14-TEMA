@@ -8,8 +8,6 @@ class Gene:
     Chromosome: int
 
 
-    def __str__(self):
-        return self.GeneID
 
     def __hash__(self):
         return hash(self.GeneID)
